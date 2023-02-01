@@ -59,8 +59,6 @@ console.log(typeof c1, c1);
 console.log('TASK 4');
 let name = prompt('Як Вас звати?', '');
 let pobatkovi = prompt('Як Вас по-Батькові?', '');
-let year = prompt('Введіть рік народження', '0');
-year = parseInt(year);
-
+let year = +prompt('Введіть рік народження', '0');
 
 console.log(`${name} ${pobatkovi} ${year}`);
