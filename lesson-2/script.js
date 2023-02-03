@@ -43,10 +43,7 @@ let book11 = {
     title: 'qqq',
     pageCount: 234,
     genre: 'www',
-    authors:{
-        name: 'Vasya',
-        age: 53
-    }
+    authors:['Vasya', 53]
 }
 console.log(book11);
 
@@ -54,10 +51,7 @@ let book12 = {
     title: 'eee',
     pageCount: 777,
     genre: 'rrr',
-    authors:{
-        name: 'Ivan',
-        age: 44
-    }
+    authors:['Ivan', 44]
 }
 console.log(book12);
 
@@ -65,10 +59,7 @@ let book13 = {
     title: 'ttt',
     pageCount: 123,
     genre: 'yyy',
-    authors:{
-        name: 'Styopka',
-        age: 77
-    }
+    authors:['Styopka', 77]
 }
 console.log(book13);
 
