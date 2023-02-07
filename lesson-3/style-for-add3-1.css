@@ -1,0 +1,11 @@
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-card{
+    width: 19%;
+    margin: 8px;
+    box-sizing: border-box;
+    background-color: gray;
+
+}
