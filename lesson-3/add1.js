@@ -299,37 +299,37 @@ let books = [
     {
         name: 'Заповіт',
         pageCount: 2,
-        authors: ['QWE'],
+        authors: [{name:'QWE'}],
         genres: ['qqq', 'www'],
     },
     {
         name: 'ETThytjtykuylylghghmgE',
         pageCount: 10,
-        authors: ['ERTY', 'Mgrre'],
+        authors: [{name:'ERTY'}, {name:'Mgrre'}],
         genres: ['uuiu'],
     },
     {
         name: 'kuylylylyujy',
         pageCount: 42,
-        authors: ['Mum', 'jLllfe'],
+        authors: [ {name:'Mum'}, {name:'jLllfe'}],
         genres: ['popo', 'aeder', 'grjyjy'],
     },
     {
         name: 'Rom',
         pageCount: 18,
-        authors: ['pooipo'],
+        authors: [ {name:'pooipo'}],
         genres: ['iegwe', 'kyure'],
     },
     {
         name: 'Komand',
         pageCount: 200,
-        authors: ['Wuirt', 'Andhtr'],
+        authors: [ {name:'Wuirt'}, {name:'Andhtr'}],
         genres: ['Kikak'],
     },
     {
         name: 'uiuijyt',
         pageCount: 120,
-        authors: ['Oat', 'Momn'],
+        authors: [ {name:'Oat'}, {name:'Momn'}],
         genres: ['Gutt'],
     },
 ]
