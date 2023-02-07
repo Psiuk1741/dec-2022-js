@@ -72,7 +72,7 @@ for (let j = 0; j < arr5.length; j++) {
 console.log('5. перебрати циклом while та вивести числа тільки парні значення')
 i = 0;
 while (i < arr5.length) {
-    if (i % 2 === 0) {
+    if (arr5[i] % 2 === 0) {
         console.log(arr5[i]);
     }
     i++;
@@ -81,7 +81,7 @@ while (i < arr5.length) {
 // 6. перебрати циклом for та вивести числа тільки парні значення
 console.log('6. перебрати циклом for та вивести числа тільки парні значення')
 for (let j = 0; j < arr5.length; j++) {
-    if (j % 2 === 0) {
+    if (arr5[j] % 2 === 0) {
         const arr5Element = arr5[j];
         console.log(arr5Element);
     }
@@ -148,7 +148,7 @@ for (let j = arr5.length - 1; j >= 0; j--) {
 console.log('5. перебрати циклом while та вивести числа тільки парні значення')
 i = arr5.length - 1;
 while (i >= 0) {
-    if (i % 2 === 0) {
+    if (arr5[i] % 2 === 0) {
         console.log(arr5[i]);
     }
     i--;
@@ -158,7 +158,7 @@ while (i >= 0) {
 // 6. перебрати циклом for та вивести числа тільки парні значення
 console.log('6. перебрати циклом for та вивести числа тільки парні значення')
 for (let j = arr5.length - 1; j >= 0; j--) {
-    if (j % 2 === 0) {
+    if (arr5[j] % 2 === 0) {
         const arr5Element = arr5[j];
         console.log(arr5Element);
     }
@@ -295,7 +295,7 @@ for (let i = 1; i < 101; i ++){
 }
 
 // створити масив книжок (назва, кількість сторінок, автори , жанри).
-books = [
+let books = [
     {
         name: 'Заповіт',
         pageCount: 2,
