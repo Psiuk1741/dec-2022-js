@@ -236,18 +236,31 @@ let usersList = [
     }
 ];
 document.write(`<div class="users-box">`);
-for (users of usersList) {
-    document.write(`<div class="user-block">
-                <h2>${users.id} - ${users.name} - ${users.username} </h2>
-                <h3>${users.email} - ${users.phone}</h3>
+for (let i = 0; i < usersList.length; i++) {
+    document.write(` <div class="user-block">
+                <h2>${usersList[i].id} - ${usersList[i].name} - ${usersList[i].username} </h2>
+                <h3>${usersList[i].email} - ${usersList[i].phone}</h3>
                 <div class="address-block">
-                    <p>City - ${users.address.city}</p>
-                    <p>Street - ${users.address.street}</p>
-                    <p>Suite - ${users.address.suite}</p>
-                    <p>Zip code - ${users.address.zipcode}</p>
+                    <p>City - ${usersList[i].address.city}</p>
+                    <p>Street - ${usersList[i].address.street}</p>
+                    <p>Suite - ${usersList[i].address.suite}</p>
+                    <p>Zip code - ${usersList[i].address.zipcode}</p>
                 </div>
-            </div>`);
+  </div>`)
+
 }
+// for (users of usersList) {
+//     document.write(`<div class="user-block">
+//                 <h2>${users.id} - ${users.name} - ${users.username} </h2>
+//                 <h3>${users.email} - ${users.phone}</h3>
+//                 <div class="address-block">
+//                     <p>City - ${users.address.city}</p>
+//                     <p>Street - ${users.address.street}</p>
+//                     <p>Suite - ${users.address.suite}</p>
+//                     <p>Zip code - ${users.address.zipcode}</p>
+//                 </div>
+//             </div>`);
+// }
 
 document.write(`</div>`);
 
