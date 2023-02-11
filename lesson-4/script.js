@@ -2,8 +2,7 @@
 //- створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 console.log('створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б')
 function squareRectangle(a, b){
-    let square = a * b;
-    return square;
+    return a * b;
 }
 console.log(squareRectangle(2,4));
 
@@ -11,8 +10,7 @@ console.log(squareRectangle(2,4));
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 console.log('створити функцію яка обчислює та повертає площу кола з радіусом r')
 function squareCircle(r){
-    let square = Math.PI * Math.pow(r,2);
-    return square;
+    return Math.PI * Math.pow(r,2);
 }
 
 console.log(squareCircle(2));
@@ -21,8 +19,7 @@ console.log(squareCircle(2));
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
 console.log('створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r')
 function squareCylinder(h, r){
-    let square = 2 * Math.PI * r * h;
-    return square;
+    return  2 * Math.PI * r * h;
 }
 
 console.log(squareCylinder(2, 2));
@@ -41,10 +38,8 @@ print(array);
 
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
-console.log('створити функцію яка створює параграф з текстом. Текст задати через аргумент')
 function paragraph(str){
     document.write(`<p> ${str} </p>`);
-    console.log(str);
 }
 
 paragraph('I love JS and Okten School');
