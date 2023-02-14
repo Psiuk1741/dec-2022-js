@@ -46,7 +46,7 @@ paragraph('I love JS and Okten School');
 
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
-function ULandLI(str){
+function ulandli(str){
     document.write(`<ul>
     <li>${str}</li>
     <li>${str}</li>
@@ -54,7 +54,7 @@ function ULandLI(str){
     </ul>`)
 }
 
-ULandLI('I love Js');
+ulandli('I love Js');
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 function ul(str, n){
@@ -69,7 +69,8 @@ ul('Lorem ipsum', 2);
 
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
-PrimitiveArr = [true, 'h5j5', 6, false, '66'];
+let primitiveArr = [true, 'h5j5', 6, false, '66'];
+
 function createList(arr){
     document.write(`<ul>`);
     for (let i = 0; i < arr.length; i++) {
@@ -78,7 +79,7 @@ function createList(arr){
     document.write(`</ul>`);
 }
 
-createList(PrimitiveArr);
+createList(primitiveArr);
 
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.

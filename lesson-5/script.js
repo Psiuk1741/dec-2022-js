@@ -1,28 +1,28 @@
 
 //ВСЕ ЗРОБИТИ СТРІЛОЧНИМИ ФУНКЦІЯМИ!
 //- створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
-console.log('створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б')
+
 let squareRectangle = (a, b) => a * b;
 
 console.log(squareRectangle(2,4));
 
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
-console.log('створити функцію яка обчислює та повертає площу кола з радіусом r')
+
 let squareCircle = (r) => Math.PI * Math.pow(r,2);
 
 console.log(squareCircle(2));
 
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
-console.log('створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r')
+
 let squareCylinder = (h, r) =>  2 * Math.PI * r * h;
 
 console.log(squareCylinder(2, 2));
 
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
-console.log('створити функцію яка приймає масив та виводить кожен його елемент')
+
 let array = [1, 4, 6, 7, 8];
 let print = (arr) => {
     for (const arrElement of arr) {
@@ -34,6 +34,7 @@ print(array);
 
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
+
 let paragraph = (str) => {
     document.write(`<p> ${str} </p>`);
 }
@@ -42,7 +43,8 @@ paragraph('I love JS and Okten School');
 
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
-let ULandLI = (str) => {
+
+let ulandLI = (str) => {
     document.write(`<ul>
     <li>${str}</li>
     <li>${str}</li>
@@ -50,9 +52,10 @@ let ULandLI = (str) => {
     </ul>`)
 }
 
-ULandLI('I love Js');
+ulandLI('I love Js');
 
 // - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+
 let ul = (str, n) => {
     document.write(`<ul>`);
     for (let i = 0; i < n; i++) {
@@ -65,7 +68,8 @@ ul('Lorem ipsum', 2);
 
 
 // - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
-PrimitiveArr = [true, 'h5j5', 6, false, '66'];
+
+let primitiveArr = [true, 'h5j5', 6, false, '66'];
 let createList = (arr) => {
     document.write(`<ul>`);
     for (let i = 0; i < arr.length; i++) {
@@ -74,10 +78,11 @@ let createList = (arr) => {
     document.write(`</ul>`);
 }
 
-createList(PrimitiveArr);
+createList(primitiveArr);
 
 
 // - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
+
 let users = [
     {id: 1, name:'Vasya', age: 22},
     {id: 2, name:'Katya', age: 23},
@@ -102,7 +107,7 @@ user(users);
 
 
 // - створити функцію яка повертає найменьше число з масиву
-console.log('створити функцію яка повертає найменьше число з масиву')
+
 array = [1, 4, 6, 7, 0, 4, 6 ,-1, 7, -3, 1, -5];
 let MIN = (arr) => {
     let min = arr[0];
@@ -118,7 +123,7 @@ console.log(MIN(array))
 
 
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
-console.log('створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його.')
+
 array = [1, 4, 6];
 
 let sum = (arr) => {
@@ -134,8 +139,6 @@ console.log(sum(array))
 
 // - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
-console.log('створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах');
-
 
 array = [11,22,33,44,55,66,77,88,99];
 
@@ -158,8 +161,6 @@ console.log(swap(array, 0, 1));
 
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
-
-console.log('Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)')
 
 let currencyValue = [
     {currency:'USD',value:40},
