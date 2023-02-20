@@ -27,9 +27,9 @@ console.log(str3.toLowerCase());
 
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів.
 
-let str = '  dirty string     '
+let str = '    dirty string     '
 
-console.log(str.replaceAll(' ', ''));
+console.log(str.trim());
 
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів.
 //     let str = 'Ревуть воли як ясла повні';
