@@ -279,9 +279,9 @@ let coursesArray = [
 ];
 
 // --написати пошук всіх об'єктів, в який в modules є sass
-let findSass = coursesArray.filter((item)=> item.modules.includes('sass'));
+let findSass = coursesArray.filter((item) => item.modules.includes('sass'));
 console.log(findSass);
 
 // --написати пошук всіх об'єктів, в який в modules є docker
-let findDocker = coursesArray.filter((item)=> item.modules.includes('docker'));
+let findDocker = coursesArray.filter((item) => item.modules.includes('docker'));
 console.log(findDocker);
