@@ -202,19 +202,19 @@ class Cinderella{
     }
 }
 
-let arrCinderella = [];
+let arrCinderella = [
 
-arrCinderella.push(new Cinderella('Julia', 22, 41));
-arrCinderella.push(new Cinderella('Oksana', 21, 39));
-arrCinderella.push(new Cinderella('Ivanna', 19, 40));
-arrCinderella.push(new Cinderella('Alina', 20, 41));
-arrCinderella.push(new Cinderella('Solomia', 21, 41));
-arrCinderella.push(new Cinderella('Iryna', 23, 43));
-arrCinderella.push(new Cinderella('Tanya', 21, 39));
-arrCinderella.push(new Cinderella('Vasylyna', 19, 38));
-arrCinderella.push(new Cinderella('Angelina', 21, 39));
-arrCinderella.push(new Cinderella('Sofia', 23, 40));
-
+new Cinderella('Julia', 22, 41),
+new Cinderella('Oksana', 21, 39),
+new Cinderella('Ivanna', 19, 40),
+new Cinderella('Alina', 20, 41),
+new Cinderella('Solomia', 21, 41),
+new Cinderella('Iryna', 23, 43),
+new Cinderella('Tanya', 21, 39),
+new Cinderella('Vasylyna', 19, 38),
+new Cinderella('Angelina', 21, 39),
+new Cinderella('Sofia', 23, 40)
+];
 console.log(arrCinderella);
 
 class Prince{
