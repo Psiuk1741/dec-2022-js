@@ -388,8 +388,11 @@ butt.onclick = function (e) {
 
         table.appendChild(row);
     }
-
+    document.getElementById('rows') .value = '';
+    document.getElementById('cols') .value = '';
+    document.getElementById('content') .value = '';
     document.body.appendChild(table);
+
 
 }
 
